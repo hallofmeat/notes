@@ -140,5 +140,5 @@ Given an amount of signed tickets you can derive the ECDSA points using https://
 
 ## Implementations
 
-[https://github.com/LBPUnion/ProjectLighthouse/blob/4770beea393e6f23abe70ee718e8582b565f86a3/ProjectLighthouse/Tickets/NPTicket.cs](ProjectLighthouse)
-[https://github.com/hallofmeat/Skateboard3Server/tree/d03b6f1467bc8b24150ae020f81af4280bc30ad6/src/Skateboard3Server.Blaze/Tickets](Skateboard3Server)
+* [ProjectLighthouse](https://github.com/LBPUnion/ProjectLighthouse/blob/4770beea393e6f23abe70ee718e8582b565f86a3/ProjectLighthouse/Tickets/NPTicket.cs)
+* [Skateboard3Server](https://github.com/hallofmeat/Skateboard3Server/tree/b5861835e4f05476c71170272b45d5e9c061219c/src/Skateboard3Server.Blaze/Tickets)

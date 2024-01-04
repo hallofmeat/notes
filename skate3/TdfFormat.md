@@ -4,8 +4,8 @@ The TDF format is a tag based binary format used by the Blaze server. It resembl
 
 ## Implementation
 
-https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeDeserializer.cs
-https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeSerializer.cs
+* [BlazeDeserializer.cs](https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeDeserializer.cs)
+* [BlazeSerializer.cs](https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeSerializer.cs)
 
 ## Data Types
 
