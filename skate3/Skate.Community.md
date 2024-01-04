@@ -31,6 +31,7 @@ Url format:
 `${BASE_URL}/skate3/${USER}/${PLATFORM}/${LANGUAGE}/${UNITS}/Sessions/GameLogin/${SESSION}/leaderboards`
 
 CAS stands for "Create a Spot"
+
 Platform URL may be `PS3F` instead of `PS3` for flipped layout buttons? (same for xbox `XBL2F` and `XBL2`)
 
 Upload TypeId:

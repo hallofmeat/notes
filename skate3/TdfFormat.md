@@ -53,6 +53,7 @@ Header is always 12 bytes, length of body does not include the length of the hea
 #### Tag
 
 Tag uses 3 bytes to contain a four character tag name
+
 //TODO: explain conversion
 
 * `92 9C E1`
