@@ -25,8 +25,26 @@ Blaze servers used by Skate 3:
 * eadpgsl0279
   * Networking server?
 
+## Blaze QOS
+
 QoS servers used by Skate 3:
 
 * gosgvaprod-qos01
 * gosiadprod-qos01
 * gossjcprod-qos01
+
+Does a ping, speed test and firewall/NAT detection that the game sends to the application blaze server during matchmaking.
+
+Note: It looks like the PS3 version of the game does not use the NAT value detected from the QOS servers.
+
+## Other custom Blaze implementations
+
+* https://github.com/malekhr/blaze-server
+* https://github.com/vitor251093/resurrection-capsule
+* https://github.com/PocketRelay
+* https://github.com/buchacho/BF4BlazeEmulator
+* https://github.com/zeroKilo/BFP4FToolsWV
+* https://github.com/Aim4kill/BlazeSDK
+* https://github.com/pedromartins1/BlazeServer
+* https://github.com/PrivateServerEmulator/ME3PSE
+* https://github.com/openBlase/openBlase

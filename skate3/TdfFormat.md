@@ -2,26 +2,34 @@
 
 The TDF format is a tag based binary format used by the Blaze server. It resembles other tag based formats like [NBT](https://minecraft.gamepedia.com/NBT_format).
 
+## Implementation
+
+https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeDeserializer.cs
+https://github.com/hallofmeat/Skateboard3Server/blob/b8dcbd3e96b604a87d2ea8ed2fd20d68c4aaea28/src/Skateboard3Server.Blaze/Serializer/BlazeSerializer.cs
+
 ## Data Types
 
-    public enum TdfType
-    {
-        // TDF Type  /  C# Type
-        Struct = 0x0,   //class
-        String = 0x1,   //string
-        Int8 = 0x2,     //bool
-        UInt8 = 0x3,    //byte
-        Int16 = 0x4,    //short
-        UInt16 = 0x5,   //ushort
-        Int32 = 0x6,    //int
-        UInt32 = 0x7,   //uint
-        Int64 = 0x8,    //long
-        UInt64 = 0x9,   //ulong
-        Array = 0xa,    //List<T>
-        Blob = 0xb,     //byte[]
-        Map = 0xc,      //Dictionary<T,T>
-        Union = 0xd,    //KeyValuePair<T,T>
-    }
+```csharp
+public enum TdfType
+{
+    // TDF Type  /  C# Type
+    Struct = 0x0,   //class
+    String = 0x1,   //string
+    Int8 = 0x2,     //bool
+    UInt8 = 0x3,    //byte
+    Int16 = 0x4,    //short
+    UInt16 = 0x5,   //ushort
+    Int32 = 0x6,    //int
+    UInt32 = 0x7,   //uint
+    Int64 = 0x8,    //long
+    UInt64 = 0x9,   //ulong
+    Array = 0xa,    //List<T>
+    Blob = 0xb,     //byte[]
+    Map = 0xc,      //Dictionary<T,T>
+    Union = 0xd,    //KeyValuePair<T,T>
+}
+```
+
 //TODO: format rules for the different types
 
 ## Packet Format
